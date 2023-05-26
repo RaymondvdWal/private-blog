@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-section {
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login-section input {
+    border: dimgray 1px solid;
+    border-radius: 10px;
+}
+
+.login-section input:focus {
+    background-color: khaki;
+}
+
+.login-section input::placeholder {
+    text-align: center;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    background-color: aliceblue;
+}
+
+.login-section button {
+    font-family: "Copperplate Gothic Light", sans-serif;
+    background-color: aliceblue;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+}
+
+.login-section button:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.login-message {
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.login-link {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.login-link:hover {
+    background-color: orange;
+    border-radius: 10px;
+}
+

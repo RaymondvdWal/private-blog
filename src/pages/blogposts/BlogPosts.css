@@ -1,0 +1,49 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: 40px;
+    color: darkgrey;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: 18px;
+}
+
+.inner-posts {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.inner-posts:hover{
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+}
+
+
+.login-message p {
+    color: indianred;
+    font-size: 40px;
+}
+
+.login-message a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.login-message a:hover {
+    background-color: orange;
+    border-radius: 30px;
+}
